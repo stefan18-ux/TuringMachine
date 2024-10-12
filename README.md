@@ -37,7 +37,7 @@ Example: 11011
 
 Upload the machine turing code in instructions.txt
 
-It should look something like that:
+It should look something like this:
 
 ```bash
 current_state, symbol_read
