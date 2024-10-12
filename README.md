@@ -1,2 +1,1 @@
-##
-Creating a Turing Machine using python modules!
+# Creating a Turing Machine using python modules!
