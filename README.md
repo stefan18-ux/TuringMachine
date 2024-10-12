@@ -35,8 +35,8 @@ Example: 11011
 ```
 
 
-Upload the machine turing code in instructions.txt
-It should lokk something like that:
+Upload the machine turing code in instructions.txt\n
+It should look something like that:
 
 ```bash
 current_state, symbol_read
