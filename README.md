@@ -35,7 +35,8 @@ Example: 11011
 ```
 
 
-Upload the machine turing code in instructions.txt\n
+Upload the machine turing code in instructions.txt
+
 It should look something like that:
 
 ```bash
