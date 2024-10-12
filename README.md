@@ -35,10 +35,10 @@ Example: 11011
 ```
 
 
-```bash
 Upload the machine turing code in instructions.txt
 It should lokk something like that:
- 
+
+```bash
 current_state, symbol_read
 new_state, symbol_write, head_movement
 ```
@@ -48,7 +48,7 @@ new_state, symbol_write, head_movement
 python3 turing.py <running speed>
 ```
 
-## In instructions.txt you have an example for checking is a string is palindrome
+In instructions.txt you have an example for checking is a string is palindrome
 
 
 
