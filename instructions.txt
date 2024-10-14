@@ -1,57 +1,51 @@
-name: isPalindrome
-init: start
+name: Check if string has 2^n characters
+init: q0
 accept: Y
 
-start,0
-mem0,_,>
+q0,X
+qX,A,>
 
-start,1
-mem1,_,>
+q0,A
+qA,A,-
 
-start,_
+qX,X
+q0,X,<
+
+qX,_
 Y,_,-
 
-mem0,0
-mem0,0,>
+qA,X
+qB,B,>
 
-mem0,1
-mem0,1,>
+qA,A
+qB,B,>
 
-mem0,_
-expect0,_,<
+qA,B
+qA,B,<
 
-expect0,0
-reset,_,<
+qA,_
+qCB,_,>
 
-expect0,1
-N,1,-
+qB,X
+qA,B,<
 
-expect0,_
+qB,A
+qB,A,>
+
+qB,B
+qB,B,>
+
+qCB,X
+qR,X,<
+
+qCB,B
+qCB,A,>
+
+qCB,_
 Y,_,-
 
-mem1,0
-mem1,0,>
+qR,A
+qR,A,<
 
-mem1,1
-mem1,1,>
-
-mem1,_
-expect1,_,<
-
-expect1,0
-N,0,-
-
-expect1,1
-reset,_,<
-
-expect1,_
-Y,_,-
-
-reset,0
-reset,0,<
-
-reset,1
-reset,1,<
-
-reset,_
-start,_,>
+qR,_
+qA,_,>

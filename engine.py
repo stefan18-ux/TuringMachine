@@ -176,8 +176,6 @@ def run_simulation(arg):
         if curr_state == accept:
             final_message = True
             break
-        elif value[2] == '-' and curr_state is not accept:
-            break
         
     while True:
         draw_tape()
